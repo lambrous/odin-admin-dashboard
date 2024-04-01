@@ -2,16 +2,30 @@
   font-family: "Inter", sans-serif;
 
   --color-text: #160811;
-  --color-background: #fcf8fa;
-  --color-primary: #b84c90;
+  --color-background: #fff8f8;
+  --color-primary: #874b6d;
   --color-secondary: #c7c7b4;
-  --color-accent: #bb308c;
+  --color-accent: #e4bbcf;
 
   --shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   --shadow-md: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
   --pad-top: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #eddfe4;
+    --color-background: #181115;
+    --color-primary: #fbb0d8;
+    --color-secondary: #502407;
+    --color-accent: #6b3455;
+  }
+
+  .card {
+    --color-background: #251e21;
+  }
 }
 
 @supports (font-variation-settings: normal) {
@@ -61,7 +75,7 @@ nav {
   grid-area: nav;
   background-color: color-mix(
     in srgb,
-    var(--color-secondary) 30%,
+    var(--color-secondary) 18%,
     var(--color-background)
   );
   color: color-mix(in srgb, var(--color-secondary) 20%, var(--color-text));
@@ -75,6 +89,7 @@ nav {
     margin-bottom: 1.75em;
     display: block;
     gap: 0.25em;
+    color: var(--color-text);
 
     .icon {
       font-size: 1.25em;
@@ -150,7 +165,7 @@ header {
     width: min(85%, 700px);
     background-color: color-mix(
       in srgb,
-      var(--color-text) 5%,
+      var(--color-text) 8%,
       var(--color-background)
     );
     border: 0;
@@ -310,11 +325,7 @@ main {
       position: absolute;
       height: 1px;
       width: 100%;
-      background-color: color-mix(
-        in srgb,
-        var(--color-secondary) 80%,
-        var(--color-background)
-      );
+      background-color: color-mix(in srgb, var(--color-text), transparent 85%);
       bottom: calc(var(--mg-bottom) / -2);
     }
   }
@@ -362,5 +373,5 @@ main {
 }
 
 *:focus {
-  outline-color: var(--color-accent);
+  outline-color: var(--color-primary);
 }
