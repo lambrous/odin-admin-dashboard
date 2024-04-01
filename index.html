@@ -90,11 +90,12 @@
             <input type="search" name="search-bar" id="search-bar" />
           </div>
           <i class="icon bx bx-bell"></i>
-          <div class="profile-sec">
+          <div class="profile">
             <img
               src="/images/avatar00001.svg"
               alt="profile picture"
               class="profile-picture"
+              style="background-color: #5feda3"
             />
             <span class="profile-name">Morgan Oakley</span>
           </div>
@@ -102,16 +103,19 @@
         <div class="header-main"></div>
 
         <div class="header-main">
-          <div class="profile-main">
+          <div class="profile">
             <img
               src="/images/avatar00001.svg"
               alt="profile picture"
               class="profile-picture"
+              style="background-color: #5feda3"
             />
-            <p class="greetings">Hi there,</p>
-            <p class="profile-name">
-              Morgan Oakley <span class="username">(@morgan)</span>
-            </p>
+            <div class="profile-name-container">
+              <p class="greetings">Hi there,</p>
+              <p class="profile-name">
+                Morgan Oakley <span class="username">(@morgan)</span>
+              </p>
+            </div>
           </div>
           <div class="action-buttons">
             <button type="button">New</button>
@@ -123,184 +127,228 @@
     </header>
 
     <main>
-      <div id="projects">
-        <h2>Your Projects</h2>
-        <ul>
-          <li class="project">
-            <h3 class="title">Super Cool Project</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              saepe voluptas excepturi aspernatur consectetur vitae.
-            </p>
-            <div class="buttons">
-              <button type="button">
-                <i class="icon bx bx-comment-add"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-bookmark-plus"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-git-repo-forked"></i>
-              </button>
-            </div>
-          </li>
-          <li class="project">
-            <h3 class="title">Less Cool Project</h3>
-            <p>
-              Aut deleniti consequatur nesciunt praesentium magni quibusdam
-              inventore odit perferendis nemo, laborum officiis, sed fugit
-              temporibus minus tempora corporis! Laborum eaque animi dolore
-              repudiandae consectetur voluptatibus quis aperiam reprehenderit
-              qui, voluptatum assumenda commodi dolor quaerat dignissimos
-              necessitatibus.
-            </p>
-            <div class="buttons">
-              <button type="button">
-                <i class="icon bx bx-comment-add"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-bookmark-plus"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-git-repo-forked"></i>
-              </button>
-            </div>
-          </li>
-          <li class="project">
-            <h3 class="title">Impossible App</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              veritatis molestias est pariatur.
-            </p>
-            <div class="buttons">
-              <button type="button">
-                <i class="icon bx bx-comment-add"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-bookmark-plus"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-git-repo-forked"></i>
-              </button>
-            </div>
-          </li>
-          <li class="project">
-            <h3 class="title">Easy Peasy App</h3>
-            <p>
-              Debitis animi aliquid numquam esse ducimus aut nulla placeat
-              blanditiis similique aliquam cum, sunt veritatis deleniti. Ex fuga
-              at vel quos quae necessitatibus ut assumenda non alias, molestiae
-              nisi aliquam aperiam repellat nulla, molestias magnam vero?
-            </p>
-            <div class="buttons">
-              <button type="button">
-                <i class="icon bx bx-comment-add"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-bookmark-plus"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-git-repo-forked"></i>
-              </button>
-            </div>
-          </li>
-          <li class="project">
-            <h3 class="title">Ad Blocker</h3>
-            <p>
-              Eligendi eaque porro quidem error ea commodi ratione, dolores
-              eveniet suscipit aliquid iure enim laudantium odit distinctio
-              nihil perspiciatis hic, quos nisi deleniti. Laboriosam, ad ullam?
-            </p>
-            <div class="buttons">
-              <button type="button">
-                <i class="icon bx bx-comment-add"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-bookmark-plus"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-git-repo-forked"></i>
-              </button>
-            </div>
-          </li>
-          <li class="project">
-            <h3 class="title">Money Maker</h3>
-            <p>
-              Dolorum reprehenderit animi saepe dolor recusandae odit dolore,
-              repellat pariatur voluptate ipsa aspernatur maiores repudiandae
-              suscipit quis obcaecati beatae veritatis sequi adipisci, nemo
-              officiis natus voluptatibus et cum rerum? Dolore nostrum ipsum
-              voluptate quis soluta?
-            </p>
-            <div class="buttons">
-              <button type="button">
-                <i class="icon bx bx-comment-add"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-bookmark-plus"></i>
-              </button>
-              <button type="button">
-                <i class="icon bx bx-git-repo-forked"></i>
-              </button>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <div id="announcements">
-        <h2>Announcements</h2>
-        <ul>
-          <li>
-            <h4>Site Maintenance</h4>
-            <p>
-              Soluta quis neque iusto, reiciendis nostrum officia aperiam
-              obcaecati optio? Sequi quas unde alias adipisci praesentium
-              corporis nisi explicabo placeat. Similique itaque nemo quia
-              necessitatibus eos nobis.
-            </p>
-          </li>
-          <li>
-            <h4>Community Share Day</h4>
-            <p>
-              In magni doloremque cum tempora saepe nam, a, reiciendis placeat
-              officia, itaque velit fugit! Quisquam tempore dignissimos
-              reiciendis esse.
-            </p>
-          </li>
-          <li>
-            <h4>Updated Privacy Policy</h4>
-            <p>
-              Doloribus distinctio ipsum, quaerat esse vel deleniti illum,
-              officia doloremque ab earum officiis in dicta neque.
-            </p>
-          </li>
-        </ul>
-      </div>
-
-      <div id="trending">
-        <h2>Trending</h2>
-        <ul>
-          <li>
-            <img src="/images/avatar00002.svg" alt="profile picture" />
-            <p class="username">@tegan</p>
-            <p class="project-name">World Piece Builder</p>
-          </li>
-          <li>
-            <img src="/images/avatar00001.svg" alt="profile picture" />
-            <p class="username">@morgan</p>
-            <p class="project-name">Super Cool Project</p>
-          </li>
-          <li>
-            <img src="/images/avatar00003.svg" alt="profile picture" />
-            <p class="username">@kendall</p>
-            <p class="project-name">Life Changing App</p>
-          </li>
-          <li>
-            <img src="/images/avatar00004.svg" alt="profile picture" />
-            <p class="username">@alex</p>
-            <p class="project-name">No Traffic Maker</p>
-          </li>
-        </ul>
+      <div class="container">
+        <div id="projects">
+          <h2>Your Projects</h2>
+          <ul>
+            <li class="project card">
+              <div class="content">
+                <h3 class="title">Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam, saepe voluptas excepturi aspernatur consectetur vitae.
+                </p>
+              </div>
+              <div class="buttons">
+                <button type="button">
+                  <i class="icon bx bx-comment-add"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-bookmark-plus"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-git-repo-forked"></i>
+                </button>
+              </div>
+            </li>
+            <li class="project card">
+              <div class="content">
+                <h3 class="title">Less Cool Project</h3>
+                <p>
+                  Aut deleniti consequatur nesciunt praesentium magni quibusdam
+                  inventore odit perferendis nemo, laborum officiis, sed fugit
+                  temporibus minus tempora corporis! Laborum eaque animi dolore
+                  repudiandae consectetur voluptatibus quis aperiam
+                  reprehenderit qui, voluptatum assumenda commodi dolor quaerat
+                  dignissimos necessitatibus.
+                </p>
+              </div>
+              <div class="buttons">
+                <button type="button">
+                  <i class="icon bx bx-comment-add"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-bookmark-plus"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-git-repo-forked"></i>
+                </button>
+              </div>
+            </li>
+            <li class="project card">
+              <div class="content">
+                <h3 class="title">Impossible App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia veritatis molestias est pariatur.
+                </p>
+              </div>
+              <div class="buttons">
+                <button type="button">
+                  <i class="icon bx bx-comment-add"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-bookmark-plus"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-git-repo-forked"></i>
+                </button>
+              </div>
+            </li>
+            <li class="project card">
+              <div class="content">
+                <h3 class="title">Easy Peasy App</h3>
+                <p>
+                  Debitis animi aliquid numquam esse ducimus aut nulla placeat
+                  blanditiis similique aliquam cum, sunt veritatis deleniti. Ex
+                  fuga at vel quos quae necessitatibus ut assumenda non alias,
+                  molestiae nisi aliquam aperiam repellat nulla, molestias
+                  magnam vero?
+                </p>
+              </div>
+              <div class="buttons">
+                <button type="button">
+                  <i class="icon bx bx-comment-add"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-bookmark-plus"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-git-repo-forked"></i>
+                </button>
+              </div>
+            </li>
+            <li class="project card">
+              <div class="content">
+                <h3 class="title">Ad Blocker</h3>
+                <p>
+                  Eligendi eaque porro quidem error ea commodi ratione, dolores
+                  eveniet suscipit aliquid iure enim laudantium odit distinctio
+                  nihil perspiciatis hic, quos nisi deleniti. Laboriosam, ad
+                  ullam?
+                </p>
+              </div>
+              <div class="buttons">
+                <button type="button">
+                  <i class="icon bx bx-comment-add"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-bookmark-plus"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-git-repo-forked"></i>
+                </button>
+              </div>
+            </li>
+            <li class="project card">
+              <div class="content">
+                <h3 class="title">Money Maker</h3>
+                <p>
+                  Dolorum reprehenderit animi saepe dolor recusandae odit
+                  dolore, repellat pariatur voluptate ipsa aspernatur maiores
+                  repudiandae suscipit quis obcaecati beatae veritatis sequi
+                  adipisci, nemo officiis natus voluptatibus et cum rerum?
+                  Dolore nostrum ipsum voluptate quis soluta?
+                </p>
+              </div>
+              <div class="buttons">
+                <button type="button">
+                  <i class="icon bx bx-comment-add"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-bookmark-plus"></i>
+                </button>
+                <button type="button">
+                  <i class="icon bx bx-git-repo-forked"></i>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <aside>
+          <div id="announcements">
+            <h2>Announcements</h2>
+            <ul class="card">
+              <li>
+                <h4>Site Maintenance</h4>
+                <p>
+                  Soluta quis neque iusto, reiciendis nostrum officia aperiam
+                  obcaecati optio? Sequi quas unde alias adipisci praesentium
+                  corporis nisi explicabo placeat. Similique itaque nemo quia
+                  necessitatibus eos nobis.
+                </p>
+              </li>
+              <li>
+                <h4>Community Share Day</h4>
+                <p>
+                  In magni doloremque cum tempora saepe nam, a, reiciendis
+                  placeat officia, itaque velit fugit! Quisquam tempore
+                  dignissimos reiciendis esse.
+                </p>
+              </li>
+              <li>
+                <h4>Updated Privacy Policy</h4>
+                <p>
+                  Doloribus distinctio ipsum, quaerat esse vel deleniti illum,
+                  officia doloremque ab earum officiis in dicta neque.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div id="trending">
+            <h2>Trending</h2>
+            <ul class="card">
+              <li class="profile">
+                <img
+                  src="/images/avatar00002.svg"
+                  alt="profile picture"
+                  class="profile-picture"
+                  style="background-color: #e69dcd"
+                />
+                <div class="profile-container">
+                  <p class="username">@tegan</p>
+                  <p class="project-name">World Piece Builder</p>
+                </div>
+              </li>
+              <li class="profile">
+                <img
+                  src="/images/avatar00001.svg"
+                  alt="profile picture"
+                  class="profile-picture"
+                  style="background-color: #5feda3"
+                />
+                <div class="profile-container">
+                  <p class="username">@morgan</p>
+                  <p class="project-name">Super Cool Project</p>
+                </div>
+              </li>
+              <li class="profile">
+                <img
+                  src="/images/avatar00003.svg"
+                  alt="profile picture"
+                  class="profile-picture"
+                  style="background-color: #5ed0b9"
+                />
+                <div class="profile-container">
+                  <p class="username">@kendall</p>
+                  <p class="project-name">Life Changing App</p>
+                </div>
+              </li>
+              <li class="profile">
+                <img
+                  src="/images/avatar00004.svg"
+                  alt="profile picture"
+                  class="profile-picture"
+                  style="background-color: #ff6948"
+                />
+                <div class="profile-container">
+                  <p class="username">@alex</p>
+                  <p class="project-name">No Traffic Maker</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
       </div>
     </main>
   </body>
